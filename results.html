@@ -1,0 +1,301 @@
+<!doctype html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" id="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta name="Description" content="Search">
+  <meta name="robots" content="noimageindex, noarchive">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Heo</title>
+  <style>
+      body {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-weight: 400;
+          line-height: 1.6;
+          font-size: 16px;
+      }
+
+      * {
+          margin: 0;
+          padding: 0;
+          outline: none;
+          box-sizing: border-box;
+          text-decoration: none;
+          vertical-align: baseline;
+          list-style-type: none;
+          border: 0;
+          outline: 0;
+      }
+
+  </style>
+  <style>
+      
+      @media screen and (max-width: 600px) {
+.clrful {
+  padding: 6px;
+}
+
+.search-btn {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+    .search-field {
+  height: 2.4rem;
+}
+
+}
+
+      @media screen and (max-width: 1199px) and (min-width: 601px) {
+.clrful {
+  padding: 6px;
+}
+
+.search-btn {
+  height: 2.7rem;
+  width: 2.7rem;
+}
+    .search-field {
+  height: 2.7rem;
+}
+
+}
+
+      @media screen and (min-width: 1200px) {
+          body::-webkit-scrollbar {
+              width: 12px;
+          }
+
+          body::-webkit-scrollbar-thumb {
+              background-color: #555;
+          }
+.clrful {
+  padding: 0px;
+}
+
+.search-btn {
+  height: 2.8rem;
+  width: 2.8rem;
+}
+    .search-field {
+  height: 2.8rem;
+}
+      }
+  </style>
+  
+  <style>
+    .threedot {
+        width: 3.6rem;
+        height: 3.6rem;
+        transition: .2s ease;
+    }
+    .usernav {
+    display: flex;
+        background: #fff;
+        padding: 0 10px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+        </style>
+          <style>
+          
+    .search-btn {
+        height: 2.8rem;
+  width: 2.8rem;
+        padding: 0rem 0.6rem;
+        background-color: #ffffff00;
+        border: none;
+        outline: none;
+        border-radius: 0 6px 6px 0;
+        display: flex;
+        align-items: center;
+    }
+          .search-field {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 0px;
+        outline: none;
+        padding: 0rem 0.6rem;
+        background: transparent;
+        height: 2.8rem;
+        color: #000;
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    .d3 {
+        display: flex;
+        background: #ffffff;
+        border: 2px solid #797979;
+        max-width: 550px;
+        align-items: center;
+        border-radius: 6px;
+    }
+    .formcon {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.4rem;
+        align-items: center;
+    }
+    
+.logoogle, .logo {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.clrful {
+    stroke-width: 1.4;
+    border-radius: 5px;
+    fill: none;
+    stroke: #4f4f4f;
+    box-shadow: none;
+    display: block;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: .2s ease;
+}
+.srchicon {
+    stroke: #5f5f5f;
+    fill: none;
+    stroke-width: 2;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.thumb {
+    background-image: url();
+    background-size: cover;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+.thumb {
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    right: 0;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+        
+        .thumb img {
+            border-radius: 50%;
+        }
+        
+        .imgful {
+            width: 100%;
+        }
+        
+        img {
+            border: 0;
+            vertical-align: top;
+        }
+        
+        .thumb:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.07);
+            content: '';
+        }
+.logoogle, .logo {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+          </style>
+<div class="usernav">
+  <svg class="threedot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 1120">
+    <defs>
+      <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="25%" stop-color="#FFC107"></stop>
+        <stop offset="75%" stop-color="#FF9800"></stop>
+      </linearGradient>
+    </defs>
+    <path fill="url(#gradient1)" d="M947.2 256h-153.67c16.107-21.408 25.67-48.006 25.67-76.8 0-70.579-57.421-128-128-128-71.181 0-130.869 56.381-160.112 89.987-17.707 20.35-32.954 42.136-44.686 63.208-11.733-21.070-26.981-42.858-44.688-63.208-29.245-33.606-88.931-89.987-160.114-89.987-70.579 0-128 57.421-128 128 0 28.794 9.563 55.392 25.669 76.8h-153.669c-14.138 0-25.6 11.462-25.6 25.6v153.6c0 14.138 11.462 25.6 25.6 25.6h25.6v486.4c0 42.349 34.453 76.8 76.8 76.8h716.8c42.349 0 76.8-34.451 76.8-76.8v-486.4h25.6c14.139 0 25.6-11.462 25.6-25.6v-153.6c0-14.138-11.461-25.6-25.6-25.6zM569.712 174.797c40.035-46.010 84.317-72.397 121.488-72.397 42.349 0 76.8 34.453 76.8 76.8s-34.451 76.8-76.8 76.8h-172.946c8.854-22.621 26.758-52.818 51.458-81.203zM563.2 972.8h-153.6v-665.6h153.6v665.6zM204.8 179.2c0-42.347 34.453-76.8 76.8-76.8 37.173 0 81.453 26.387 121.488 72.397 24.699 28.386 42.603 58.582 51.458 81.203h-172.946c-42.347 0-76.8-34.453-76.8-76.8zM51.2 307.2h307.2v102.4h-307.2v-102.4zM102.4 947.2v-486.4h256v512h-230.4c-14.115 0-25.6-11.485-25.6-25.6zM870.4 947.2c0 14.115-11.485 25.6-25.6 25.6h-230.4v-512h256v486.4zM921.6 409.6h-307.2v-102.4h307.2v102.4z"></path>
+  </svg>
+<form method="POST" class="formcon">
+	  <div class="d3 " style="width:100%; ">
+    <input name="text" class="search-field" placeholder="srch">
+    <label class="search-btn">
+      <input type="submit" style="display:none">
+     <svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 24 24" class="srchicon ">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg> 
+    </label>
+    </div>
+</form>
+<svg style="width: 3.2rem;height: 3.2rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="25%" stop-color="#C338FF"></stop>
+      <stop offset="75%" stop-color="#EA68FF"></stop>
+    </linearGradient>
+  </defs>
+  <path fill="url(#gradient2)" d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
+</svg>
+
+</div>
+
+
+{% if query %}
+  <h1>Hello {{ query }}!</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
+
+
+<ul class="nuts">
+        
+  <li>
+<span class="thumb" style=" cursor: pointer; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+  <svg class="logoogle clrful" viewBox="0 0 24 24" width="100%" height="100%" role="img" style="padding:0; margin-bottom: 10px;">
+      <defs>
+          <linearGradient id="gradient6" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="25%" stop-color="#ffc107"></stop>
+              <stop offset="75%" stop-color="#ff9800"></stop>
+          </linearGradient>
+      </defs>
+      <path d="M18.36 6.64a9 9 0 1 1-12.73 0" stroke="url(#gradient6)"></path>
+      <line x1="12" y1="2" x2="12" y2="12" stroke="#ff9800"></line>
+  </svg>
+</span>
+</li>
+</ul>
+
+<style>
+  .nuts {
+  margin: 0.0rem 0rem 0.0rem 0.0rem;
+  border-right: 1px solid #f0f0f0;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0rem 0rem;
+  z-index: 1;
+  list-style: none;
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  background: #ffffff;
+}
+.nuts li.active {
+  background: #f0f0f0f0;
+}
+.nuts li {
+  height:4rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem 0.4rem;
+  border-bottom: 0px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+</style>
