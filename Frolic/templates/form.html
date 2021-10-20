@@ -1,0 +1,221 @@
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" id="viewport" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="noimageindex, noarchive" name="robots">
+</head>
+    <style>
+        body {
+            font-family: "Noto sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            background: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            vertical-align: baseline;
+        }
+
+
+        body::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: #555;
+        }
+    </style>
+    
+    <style>
+        
+@media screen and (max-width: 600px) {
+
+.formcon {
+    bottom: 6rem;
+}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 601px) {
+
+.formcon {
+    bottom: 5rem;
+}
+}
+
+@media screen and (min-width: 1200px) {
+
+.formcon {
+    bottom: 5rem;
+}
+}
+    </style>
+    
+<section class="formcon">
+    <button type="button" class="search_form__logo__button" title="Home">
+        
+    </button>
+<form method="POST" class="homeform">
+    <div class="d3 " style="width:100%; ">
+  <input name="text" class="search-field" placeholder="Finds anything">
+  <label class="search-btn">
+    <input type="submit" style="display:none">
+    <svg class="srchicon" viewBox="0 0 24 24" width="100%" height="100%" role="img" stroke="#000000">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+    </svg>
+  </label>
+  </div>
+</form>
+</section>
+<style>
+    .ficons {
+    padding: 0.4rem 0;
+    font-size: 1rem;
+    }
+    .logoogle {
+    fill: none;
+    height: 2rem;
+    padding: 2px;
+    /* box-shadow: 1px 2px 5px rgb(212 212 212); */
+    width: 2rem;
+    border-radius: 8px;
+    /* background: #fff; */
+    stroke-width: 1.4;
+}
+</style>
+<style>
+.search_form__logo__button {
+    cursor: pointer;
+    height: 3.8rem;
+    width: 3.8rem;
+    background-color: #ffffff00;
+    border: none;
+    outline: none;
+    border-radius: 0 6px 6px 0;
+    background: url(https://www.qwant.com/maps/statics/images/qwant-logo.svg) no-repeat;
+    background-size: contain;
+    margin: 0 0 3rem 0;
+}
+.search-btn {
+    height: 3.3rem;
+    width: 3.4rem;
+    padding: 0.3rem 0.6rem;
+    background-color: #ffffff00;
+    border: none;
+    outline: none;
+    border-radius: 0 6px 6px 0;
+    display: flex;
+    border-left: 1px solid #f3f3f3;
+    align-items: center;
+}
+.search-field {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0px;
+    outline: none;
+    padding: 0rem 0.6rem;
+    background: transparent;
+    height: 3rem;
+    color: #000;
+    font-size: 1.1rem;
+    width: 100%;
+}
+    .d3 {
+        display: flex;
+        background: #ffffff;
+        border: 2px solid #797979;
+        max-width: 550px;
+        align-items: center;
+        border-radius: 6px;
+        box-shadow: rgb(0 0 0 / 20%) 0 2px 12px 0;
+    }
+    .homeform {    
+    max-width: 500px;
+    width: 100%;
+    }
+.formcon {
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 3;
+    flex-direction: column;
+}
+    
+    .clrful {
+    stroke-width: 1.4;
+    border-radius: 5px;
+    width: 3rem;
+    height: 3rem;
+    fill: none;
+    stroke: #4f4f4f;
+    box-shadow: none;
+    display: block;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: .2s ease;
+}
+.srchicon {
+    stroke-width: 1.4;
+    border-radius: 5px;
+    width: 2.4rem;
+    height: 2.4rem;
+    fill: none;
+    stroke: #4f4f4f;
+    box-shadow: none;
+    display: block;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: .2s ease;
+}
+.thumb {
+    background-image: url();
+    background-size: cover;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+.thumb {
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    right: 0;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+        
+        .thumb img {
+            border-radius: 50%;
+        }
+        
+        .imgful {
+            width: 100%;
+        }
+        
+        img {
+            border: 0;
+            vertical-align: top;
+        }
+        
+        .thumb:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.07);
+            content: '';
+        }
+        </style>
